@@ -1,0 +1,5 @@
+print("Welcome to the world of programming")
+print(23)
+print("hello world \n learn python")
+print("My name in kridha",23)
+print("Welcome to", end="&9")
