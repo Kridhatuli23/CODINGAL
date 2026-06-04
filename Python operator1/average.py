@@ -1,0 +1,9 @@
+tree1 = 65
+tree2= 67
+tree3= 91
+tree4= 35
+tree5= 10
+sum= tree1+tree2+tree3+tree4+tree5
+print("The sum of all the 5 trees is=",sum)
+average = sum/5
+print("The average of all the 5 trees is=",average )
