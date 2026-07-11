@@ -30,4 +30,4 @@ if guess5==32:
     print("Correct guess")
 else:
     print("Wrong guess")
-Print("The secret number is 32")
+print("The secret number is 32")
