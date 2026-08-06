@@ -1,5 +1,5 @@
 import random
-print("I will tell you your luck number today!")
+print("I will tell you your lucky number today!")
 num=random.randint(1,100)
 print("Your lucky number is",num)
 
@@ -9,7 +9,7 @@ print("The random activity you need to perform is",activity)
 
 
 
-print("I will think of a random number between 1 and 20, and you need to guess it in three tries.")
+print("I will think of a random number between 0 and 20, and you need to guess it in three tries.")
 num1=random.randint(0,20)
 
 try:
@@ -29,7 +29,7 @@ try:
     else:
         print("The numebr I was thinking about was",num1)
 except ValueError:
-    print("Invalid number. Please enter a number between 0 and 20")
+    print("Invalid. Please enter a number between 0 and 20")
 
 import math
 num=float(input("Enter a decimal number to check where it round off: "))
