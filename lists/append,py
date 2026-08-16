@@ -1,0 +1,11 @@
+def match_words(words):
+    cout=0
+    lst=[]
+    for word in words:
+        if len(word)>1 and word[0]==word[-1]:
+            cout+=1
+            lst.append(word)
+    print("listof words with fist and the last charcter same are",lst)
+    return cout
+cout=match_words(['abs','cfc','jup','tvt'])
+print("Number of words having first and the last character as same:",cout)
